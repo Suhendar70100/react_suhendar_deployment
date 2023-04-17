@@ -1,0 +1,12 @@
+.box {
+    background-color: #fff9e6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px;
+    justify-content: center;
+}
+
+h1 {
+    color: #8873be;
+}

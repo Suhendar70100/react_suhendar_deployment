@@ -1,0 +1,18 @@
+.text-center {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.picture {
+    width: 100px;
+    height: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .text-center {
+        padding: 0px;
+        width: auto;
+    }
+}
