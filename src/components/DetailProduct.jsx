@@ -17,7 +17,7 @@ export default function DeatilProduct() {
         <div className="box">
             <h1>Detail Product</h1>
             {loading ? <Loading /> :
-                data?.products.filter((item) => item.id === id).map((item) => (
+                data?.product.filter((item) => item.id === id).map((item) => (
                     <div key={item.id}>
                         <p>Product Name : {item.productName}</p>
                         <p>Category Product : {item.productCategory}</p>

@@ -1,10 +1,10 @@
 import {
-    gql
+  gql
 } from "@apollo/client";
 
 export const SubscriptionProduct = gql `
 subscription MySubscription {
-    products {
+    product {
       id
       productCategory
       productFreshness

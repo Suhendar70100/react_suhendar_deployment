@@ -4,7 +4,7 @@ import {
 
 export const GetData = gql `
         query GetProducts {
-            products {
+            product {
             productPrice
             productCategory
             productFreshness
@@ -17,7 +17,7 @@ export const GetData = gql `
 
 export const DataPagination = gql `
 query GetProducts {
-    products(limit: 5, offset: 0, order_by: {productName: asc}) {
+    product(limit: 5, offset: 0, order_by: {productName: asc}) {
       productPrice
           descriptionProduct
           productCategory

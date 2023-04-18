@@ -17,14 +17,14 @@ import {
 } from '@apollo/client/utilities';
 
 const httpLink = new HttpLink({
-    uri: 'https://exciting-tapir-49.hasura.app/v1/graphql',
+    uri: 'https://poetic-crayfish-84.hasura.app/v1/graphql',
     headers: {
         'x-hasura-admin-secret': import.meta.env.VITE_HASURA_SECRET,
     }
 });
 
 const wsLink = new GraphQLWsLink(createClient({
-    url: 'wss://exciting-tapir-49.hasura.app/v1/graphql',
+    url: 'wss://poetic-crayfish-84.hasura.app/v1/graphql',
     connectionParams: {
         headers: {
             'x-hasura-admin-secret': import.meta.env.VITE_HASURA_SECRET,

@@ -4,7 +4,7 @@ import "../card/Card.css";
 export default function Card({ input }) {
 
     const { data } = useGetDataPagination();
-    const filterData = data?.products.filter((el) => {
+    const filterData = data?.product.filter((el) => {
         if (input === "") {
             return el;
         } else {

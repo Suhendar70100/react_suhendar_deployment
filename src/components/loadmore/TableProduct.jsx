@@ -51,7 +51,7 @@ export default function TableProduct() {
                         </tr>
                     </thead>
                     <tbody>
-                        {loading ? <Loading /> : data?.products.map((item, index) =>
+                        {loading ? <Loading /> : data?.product.map((item, index) =>
                         (
                             <tr key={index}>
                                 <td scope="row"><Link to={`/account/${item.id}`}>{item.id}</Link></td>

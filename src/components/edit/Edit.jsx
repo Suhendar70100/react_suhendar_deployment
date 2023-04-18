@@ -66,7 +66,7 @@ export default function Edit() {
 
     return (
         <>
-            {data?.products.filter((item) => item.id === params.id).map((item) => (
+            {data?.product.filter((item) => item.id === params.id).map((item) => (
                 <div key={item.id}>
                     <Form className="form" onSubmit={handleSubmit} id="form">
                         <FormGroup row>
