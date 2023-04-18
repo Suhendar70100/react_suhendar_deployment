@@ -31,6 +31,6 @@ Cara Penggunaan
 3. Jalankan perintah deploy netlify deploy diterminal
 4. Verify akun melalui browser, pilih Authorize
 5. Pilih "Create & configure a new site". Untuk team, pilih yang sudah tersedia. Site name opsional.
-6.Pilih lokasi file yang akan di deploy. Pilih ./build .
+6. Pilih lokasi file yang akan di deploy. Pilih ./build .
 - vercel
 Vercel adalah platform untuk pengembang frontend, memberikan kecepatan dan keandalan yang dibutuhkan inovator untuk berkreasi pada momen inspirasi. Kita dapat mengaitkan github repository kita dengan vercel. Ketika kita sudah mendeploy project react kita di vercel maka ketika ada perubahan di github repository otomatis juga akan berubah di aplikasi yang sudah dideploy tanpa ada configurasi lagi.
